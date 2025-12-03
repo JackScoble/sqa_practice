@@ -1,6 +1,6 @@
 nav {
     margin: 0 auto 10px auto;
-    background-color: DeepSkyBlue;
+    background-color: darkgrey;
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ nav ul .navlink:hover {
 }
 
 nav ul .navlink:hover a {
-    color: DeepSkyBlue;
+    color: yellow;
 }
 
 main {
