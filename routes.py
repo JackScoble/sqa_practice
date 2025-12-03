@@ -7,4 +7,4 @@ def index():
 
 @app.route("/module-details")
 def module_details():
-    return "<h1>Module Details</h1>"
+    return render_template("module_details.html")
