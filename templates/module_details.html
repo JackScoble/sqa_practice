@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SQA Practice Home</title>
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
-    <nav>
-        <h1>Module Details</h1>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/module-details">Module Details</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Module Details</h2>
-            <p>Details about the modules will be displayed here.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 SQA Practice. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block main %}
+    <section>
+        <h2>Module Details</h2>
+        <p>Here you can find detailed information about the Software Quality Assurance Module.</p>
+    </section>
+{% endblock %}

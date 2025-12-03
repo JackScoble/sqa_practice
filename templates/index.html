@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SQA Practice Home</title>
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
-    <nav>
-        <h1>Software Quality Assurance Practice</h1>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/module-details">Module Details</a></li>
-        </ul>
-    </nav>
-    <main>
+{% extends "base.html" %}
+
+{% block main %}
         <section>
             <h2>Welcome to the SQA Practice Application</h2>
             <p>This application is designed to help you practice and improve your skills in Software Quality Assurance.</p>
             <p>Use the navigation above to explore module details and other resources.</p>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 SQA Practice. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+{% endblock %}
